@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helpdesk-agent"
+version = "0.1.0"
+description = "Helpdesk agent: RAG policy Q&A, MCP-backed employee data, and guardrails"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40",
+    "mcp>=1.2",
+    "psycopg[binary]>=3.1",
+    "pgvector>=0.3",
+    "fastembed>=0.3",
+    "python-dotenv>=1.0",
+    "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+markers = [
+    "integration: needs the docker-compose Postgres to be up and seeded (auto-skipped otherwise)",
+]

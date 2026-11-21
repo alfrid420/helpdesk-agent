@@ -1,0 +1,454 @@
+{
+  "employees": [
+    {
+      "employee_id": "E001",
+      "name": "Margaret Okafor",
+      "email": "margaret.okafor@acme-helpdesk.example",
+      "title": "Chief Executive Officer",
+      "department": "Executive",
+      "manager_id": null,
+      "hire_date": "2018-01-15",
+      "phone": "+1 555-010-1001",
+      "salary": 240000,
+      "address": "12 Cedar Lane, Springfield, IL 62701",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 25,
+          "used_days": 10
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 0
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-08-03",
+          "end_date": "2026-08-14",
+          "days": 10,
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "employee_id": "E002",
+      "name": "Daniel Brooks",
+      "email": "daniel.brooks@acme-helpdesk.example",
+      "title": "Engineering Manager",
+      "department": "Engineering",
+      "manager_id": "E001",
+      "hire_date": "2019-03-04",
+      "phone": "+1 555-010-1002",
+      "salary": 168000,
+      "address": "48 Maple Street, Springfield, IL 62702",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 25,
+          "used_days": 10
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 2
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-07-06",
+          "end_date": "2026-07-17",
+          "days": 10,
+          "status": "approved"
+        },
+        {
+          "leave_type": "sick",
+          "start_date": "2026-02-10",
+          "end_date": "2026-02-11",
+          "days": 2,
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "employee_id": "E003",
+      "name": "Aisha Khan",
+      "email": "aisha.khan@acme-helpdesk.example",
+      "title": "Software Engineer",
+      "department": "Engineering",
+      "manager_id": "E002",
+      "hire_date": "2021-06-14",
+      "phone": "+1 555-010-1003",
+      "salary": 128000,
+      "address": "221 Birch Avenue, Springfield, IL 62703",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 20,
+          "used_days": 7.5
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 2
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 1
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-03-30",
+          "end_date": "2026-04-03",
+          "days": 5,
+          "status": "approved"
+        },
+        {
+          "leave_type": "sick",
+          "start_date": "2026-06-08",
+          "end_date": "2026-06-09",
+          "days": 2,
+          "status": "approved"
+        },
+        {
+          "leave_type": "annual",
+          "start_date": "2026-09-14",
+          "end_date": "2026-09-15",
+          "days": 2.5,
+          "status": "approved"
+        },
+        {
+          "leave_type": "personal",
+          "start_date": "2026-05-04",
+          "end_date": "2026-05-04",
+          "days": 1,
+          "status": "approved"
+        },
+        {
+          "leave_type": "annual",
+          "start_date": "2026-12-21",
+          "end_date": "2026-12-24",
+          "days": 3,
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "employee_id": "E004",
+      "name": "Tomás Rivera",
+      "email": "tomas.rivera@acme-helpdesk.example",
+      "title": "Software Engineer",
+      "department": "Engineering",
+      "manager_id": "E002",
+      "hire_date": "2022-02-21",
+      "phone": "+1 555-010-1004",
+      "salary": 121000,
+      "address": "9 Willow Road, Springfield, IL 62704",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 20,
+          "used_days": 10
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 3
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-04-13",
+          "end_date": "2026-04-24",
+          "days": 10,
+          "status": "approved"
+        },
+        {
+          "leave_type": "sick",
+          "start_date": "2026-01-12",
+          "end_date": "2026-01-14",
+          "days": 3,
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "employee_id": "E005",
+      "name": "Hannah Lindqvist",
+      "email": "hannah.lindqvist@acme-helpdesk.example",
+      "title": "Finance Manager",
+      "department": "Finance",
+      "manager_id": "E001",
+      "hire_date": "2020-09-07",
+      "phone": "+1 555-010-1005",
+      "salary": 142000,
+      "address": "77 Oak Drive, Springfield, IL 62705",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 22,
+          "used_days": 5
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 0
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-06-22",
+          "end_date": "2026-06-26",
+          "days": 5,
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "employee_id": "E006",
+      "name": "Wei Zhang",
+      "email": "wei.zhang@acme-helpdesk.example",
+      "title": "Financial Analyst",
+      "department": "Finance",
+      "manager_id": "E005",
+      "hire_date": "2023-01-09",
+      "phone": "+1 555-010-1006",
+      "salary": 96000,
+      "address": "305 Pine Court, Springfield, IL 62706",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 20,
+          "used_days": 5
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 2
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-05-18",
+          "end_date": "2026-05-22",
+          "days": 5,
+          "status": "approved"
+        },
+        {
+          "leave_type": "sick",
+          "start_date": "2026-03-02",
+          "end_date": "2026-03-03",
+          "days": 2,
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "employee_id": "E007",
+      "name": "Olivia Martin",
+      "email": "olivia.martin@acme-helpdesk.example",
+      "title": "Software Engineer",
+      "department": "Engineering",
+      "manager_id": "E002",
+      "hire_date": "2023-05-22",
+      "phone": "+1 555-010-1007",
+      "salary": 118000,
+      "address": "18 Elm Street, Springfield, IL 62707",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 20,
+          "used_days": 3
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 0
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-10-05",
+          "end_date": "2026-10-07",
+          "days": 3,
+          "status": "approved"
+        },
+        {
+          "leave_type": "annual",
+          "start_date": "2026-12-28",
+          "end_date": "2026-12-31",
+          "days": 3,
+          "status": "pending"
+        },
+        {
+          "leave_type": "sick",
+          "start_date": "2026-07-20",
+          "end_date": "2026-07-20",
+          "days": 1,
+          "status": "cancelled"
+        }
+      ]
+    },
+    {
+      "employee_id": "E008",
+      "name": "Samuel Adeyemi",
+      "email": "samuel.adeyemi@acme-helpdesk.example",
+      "title": "HR Manager",
+      "department": "People",
+      "manager_id": "E001",
+      "hire_date": "2019-11-11",
+      "phone": "+1 555-010-1008",
+      "salary": 135000,
+      "address": "63 Spruce Way, Springfield, IL 62708",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 22,
+          "used_days": 10
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 0
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-08-17",
+          "end_date": "2026-08-28",
+          "days": 10,
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "employee_id": "E009",
+      "name": "Elena Petrova",
+      "email": "elena.petrova@acme-helpdesk.example",
+      "title": "HR Generalist",
+      "department": "People",
+      "manager_id": "E008",
+      "hire_date": "2022-08-29",
+      "phone": "+1 555-010-1009",
+      "salary": 88000,
+      "address": "140 Aspen Boulevard, Springfield, IL 62709",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 20,
+          "used_days": 10
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 2
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-02-16",
+          "end_date": "2026-02-27",
+          "days": 10,
+          "status": "approved"
+        },
+        {
+          "leave_type": "sick",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-02",
+          "days": 2,
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "employee_id": "E010",
+      "name": "James O'Connell",
+      "email": "james.oconnell@acme-helpdesk.example",
+      "title": "IT Manager",
+      "department": "IT",
+      "manager_id": "E001",
+      "hire_date": "2020-04-20",
+      "phone": "+1 555-010-1010",
+      "salary": 131000,
+      "address": "5 Hawthorn Place, Springfield, IL 62710",
+      "leave_balances": [
+        {
+          "leave_type": "annual",
+          "entitlement_days": 22,
+          "used_days": 5
+        },
+        {
+          "leave_type": "sick",
+          "entitlement_days": 10,
+          "used_days": 0
+        },
+        {
+          "leave_type": "personal",
+          "entitlement_days": 3,
+          "used_days": 0
+        }
+      ],
+      "leave_history": [
+        {
+          "leave_type": "annual",
+          "start_date": "2026-07-27",
+          "end_date": "2026-07-31",
+          "days": 5,
+          "status": "approved"
+        }
+      ]
+    }
+  ]
+}
